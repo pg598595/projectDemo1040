@@ -25,7 +25,7 @@ const createPostTable = async () => {
             throw err
           })
           .finally(() => {
-            dbKnex.destroy()
+            // dbKnex.destroy()
           })
       }
     })

@@ -23,7 +23,7 @@ const createCommentTable = async () => {
             throw err
           })
           .finally(() => {
-            dbKnex.destroy()
+            // dbKnex.destroy()
           })
       }
     })

@@ -27,7 +27,7 @@ const createUserTable = async () => {
             throw err
           })
           .finally(() => {
-            dbKnex.destroy()
+            // dbKnex.destroy()
           })
       }
     })
