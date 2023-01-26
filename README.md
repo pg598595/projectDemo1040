@@ -5,7 +5,7 @@
 The goal of this project is to build a scalable ExpressJS application that allows users to post and comment on posts. This should be an individual project.
 You may begin working on the project at any point however it is designed to be started during the final week.
 
-## Instructions
+## Instructionsm
 
 Create a new branch for this project, branching from the main branch.
 
