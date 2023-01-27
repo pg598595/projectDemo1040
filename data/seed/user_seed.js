@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 
 const dbKnex = require('../dbConfig.js')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const hash = require('../../utils/hash.js')
 
 const directory = path.join(__dirname, '../../../Samples')
