@@ -9,7 +9,7 @@ on:
 env:
     PROJECT_ID: ${{ secrets.RUN_PROJECT }}
     RUN_REGION: us-east2
-    SERVICE_NAME: projectdemo/api
+    SERVICE_NAME: projectdemo
 
 jobs:
     setup-build-deploy:
