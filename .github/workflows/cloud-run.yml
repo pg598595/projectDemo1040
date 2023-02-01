@@ -8,8 +8,8 @@ on:
 # Environment variables available to all jobs and steps in this workflow
 env:
     PROJECT_ID: ${{ secrets.RUN_PROJECT }}
-    RUN_REGION: us-central1
-    SERVICE_NAME: projectdemo
+    RUN_REGION: us-east2
+    SERVICE_NAME: projectdemo/api
 
 jobs:
     setup-build-deploy:
